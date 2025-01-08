@@ -101,3 +101,17 @@
       text-align: justify;
     }
   }
+@media (max-width: 768px) {
+    .timeline {
+      gap: 30px;
+    }
+
+    .timeline-item {
+      min-width: 200px;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+      transform: translateY(0);
+    }
+  }
